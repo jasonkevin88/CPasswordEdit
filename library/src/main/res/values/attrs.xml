@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="TickView">
+    <!--没有选中的基调颜色-->
+    <attr name="uncheck_base_color" format="color" />
+    <!--选中后的基调颜色-->
+    <attr name="check_base_color" format="color" />
+    <!--选中后钩的颜色-->
+    <attr name="check_tick_color" format="color" />
+    <!--圆的半径-->
+    <attr name="radius" format="dimension" />
+    <!--动画执行的速度-->
+    <attr name="rate">
+      <enum name="slow" value="0" />
+      <enum name="normal" value="1" />
+      <enum name="fast" value="2" />
+    </attr>
+    <attr name="clickable" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="PasswordEditText">
+    <!-- 密码的个数 -->
+    <attr name="passwordNumber" format="integer" />
+    <!-- 密码圆点的半径 -->
+    <attr name="passwordRadius" format="dimension" />
+    <!-- 密码圆点的颜色 -->
+    <attr name="passwordColor" format="color" />
+    <!-- 下划线的厚度 -->
+    <attr name="underlineSize" format="dimension" />
+    <!-- 下划线的颜色 -->
+    <attr name="underlineColor" format="color" />
+    <!-- 分割线的颜色 -->
+    <attr name="divisionLineColor" format="color" />
+    <!-- 分割线的大小 -->
+    <attr name="divisionLineSize" format="color" />
+    <!-- 背景边框的颜色 -->
+    <attr name="bgColor" format="color" />
+    <!-- 背景边框的大小 -->
+    <attr name="bgSize" format="dimension" />
+    <!-- 背景边框的圆角大小 -->
+    <attr name="bgCorner" format="dimension" />
+    <!-- -->
+    <attr name="bgStyle" format="integer">
+      <enum name="border" value="0" />
+      <enum name="underline" value="1" />
+    </attr>
+  </declare-styleable>
+
+</resources>

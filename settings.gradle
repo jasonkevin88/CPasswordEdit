@@ -1,0 +1,3 @@
+rootProject.name='CPasswordEdit'
+include ':app'
+include ':library'
