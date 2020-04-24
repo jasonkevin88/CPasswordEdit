@@ -51,7 +51,7 @@
       app:passwordColor="#333333"
       app:bgStyle="underline"
       app:underlineSize="2dp"
-      app:underlineColor="#a7e7c3"
+      app:underlineColor="#999999"
       />
 
     <TextView

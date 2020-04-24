@@ -1,6 +1,7 @@
 package com.cby.pwd.demo;
 
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -94,5 +95,11 @@ public class MainActivity extends AppCompatActivity
     sureBtn.setEnabled(enable);
     sureBtn.setBackgroundResource(enable ? R.drawable.cby_bg_open_button
         : R.drawable.cby_bg_disable_button);
+  }
+
+  @Override
+  public boolean onKeyDown(int keyCode, KeyEvent event) {
+    boolean isConsum = keyboard.dispatchKeyEventInFullScreen(event);
+    return isConsum ? isConsum : super.onKeyDown(keyCode,event);
   }
 }
