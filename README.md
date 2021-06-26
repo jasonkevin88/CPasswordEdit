@@ -1,6 +1,6 @@
 # CPasswordEdit
   A custom widget for special password edittext
-  这是一个基于 `Kotlin` 的简单易用的密码输入框
+  这是一个简单易用的密码输入框
 
 # How to user
 
